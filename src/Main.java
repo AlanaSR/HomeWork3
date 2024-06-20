@@ -92,8 +92,8 @@ public class Main {
         int newSalaryDenis = salaryDenis*indexation/100 + salaryDenis;
         int newSalaryKristina = salaryKristina*indexation/100 + salaryKristina;
         int differenceMasha = newSalaryMasha-salaryMasha;
-        int differenceDenis = newSalaryDenis-salaryMasha;
-        int differenceKristina = newSalaryKristina-salaryMasha;
+        int differenceDenis = newSalaryDenis-salaryDenis;
+        int differenceKristina = newSalaryKristina-salaryKristina;
         System.out.println(name1 + " теперь получает " + newSalaryMasha + " рублей. Годовой доход вырос на " +differenceMasha + " рублей.");
         System.out.println(name2 + " теперь получает " + newSalaryDenis + " рублей. Годовой доход вырос на " +differenceDenis + " рублей.");
         System.out.println(name3 + " теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " +differenceKristina + " рублей.");
